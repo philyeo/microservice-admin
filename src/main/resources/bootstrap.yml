@@ -1,0 +1,4 @@
+spring:
+  application:
+    instance_id: ${server.port}(${random.int})
+    name: admsvc
