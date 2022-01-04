@@ -7,5 +7,5 @@ It's your typical CRUD with 2 models using DDD (domain driven design) approach.
 It was developed using
 - Java 1.8
 - functionaljava library, https://www.functionaljava.org/
-- liquidbase for data management
+- ~liquidbase~ flyway for data management
 - H2 database
