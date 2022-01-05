@@ -7,8 +7,6 @@ import fj.data.List;
 import fj.data.Option;
 import fj.data.Validation;
 
-import javax.validation.Valid;
-
 public class EnumUtil {
 
     public static <T extends Enum<T>> Validation<ErrStack, List<T>> toEnumListV(final String string, final Class<T> enumType) {

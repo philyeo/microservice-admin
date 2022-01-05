@@ -4,7 +4,6 @@ package com.yeopcp.admsvc.admin.api.controller;
 import com.yeopcp.admsvc.admin.api.dto.LocationDto;
 import com.yeopcp.admsvc.admin.appService.LocationAppService;
 import com.yeopcp.admsvc.admin.persistence.dao.LocationDao;
-import com.yeopcp.admsvc.admin.persistence.repository.LocationRepository;
 import com.yeopcp.admsvc.admin.domain.util.ErrStack;
 import com.yeopcp.admsvc.admin.util.exception.BadRequestException;
 import fj.data.Validation;
@@ -19,7 +18,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.UUID;

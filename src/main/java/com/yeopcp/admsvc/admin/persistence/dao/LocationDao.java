@@ -1,7 +1,5 @@
 package com.yeopcp.admsvc.admin.persistence.dao;
 
-
-import com.yeopcp.admsvc.admin.api.dto.LocationDto;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Getter;

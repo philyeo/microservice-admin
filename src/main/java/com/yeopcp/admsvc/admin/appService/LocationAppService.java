@@ -14,7 +14,6 @@ import fj.data.Validation;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
-import javax.validation.Valid;
 import java.util.Date;
 import java.util.Optional;
 import java.util.UUID;
